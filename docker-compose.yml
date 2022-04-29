@@ -3,7 +3,6 @@ services:
     build:
       dockerfile: ./docker/Dockerfile
       context: .
-    env_file: .env
     ports:
       - 8080:3000
     depends_on:

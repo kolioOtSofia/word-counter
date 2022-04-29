@@ -5,18 +5,14 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "start:prod" : "node .output/server/index.mjs"
+    "start:prod" : "node .output/server/index.mjs",
+    "postinstall": "prisma generate"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0",
-    "nuxt": "3.0.0-rc.1",
-    "prisma": "^3.13.0"
+    "nuxt": "3.0.0-rc.1"
   },
   "dependencies": {
     "@prisma/client": "^3.13.0",
-    "express": "^4.18.0",
-    "pg": "^8.7.3",
-    "typeorm": "^0.3.6"
+    "prisma": "^3.13.0"
   }
 }
