@@ -22,7 +22,8 @@ Start the development server on [`http://localhost:3000`](http://localhost:3000)
 
 ```bash
 docker-compose up -d
-npm dev
+yarn prisma db push
+yarn dev
 ```
 
 ## Schema / Database
