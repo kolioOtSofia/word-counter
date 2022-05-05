@@ -3677,6 +3677,21 @@ pretty-bytes@^6.0.0:
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-6.0.0.tgz#928be2ad1f51a2e336add8ba764739f9776a8140"
   integrity sha512-6UqkYefdogmzqAZWzJ7laYeJnaXDy2/J+ZqiiMtS7t7OfpXWTlaeGMwX8U6EFvPV/YWWEKRkS8hKS4k60WHTOg==
 
+primeflex@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-3.1.3.tgz#4872451532a3a1cabc09b332d9cd6705502a2811"
+  integrity sha512-muJlyDPVEJNSoeOGLVx+dFbSzCnPRUcuKv8iAbGVhP47sIjstfgNdlhrZqUvJNaaSJSNxBBbITyOltI1sBqUqQ==
+
+primeicons@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-5.0.0.tgz#73a0b6028a77c58a9eeb331ad13aaf085e8451ee"
+  integrity sha512-heygWF0X5HFI1otlZE62pp6ye7sZ8om78J9au2BRkg8O7Y8AHTZ9qKMRzchZUHLe8zUAvdi6hZzzm9XxgwIExw==
+
+primevue@^3.12.6:
+  version "3.12.6"
+  resolved "https://registry.yarnpkg.com/primevue/-/primevue-3.12.6.tgz#3c5567428a9412e840d63c8b6980c5ce61905200"
+  integrity sha512-gyO1+063+JwMvcuc+F2BrIL1TWL0y3xJgLAhgKUxqMlZLLoRUF4EzOBSKnzKfr+W+33YTsh6veysZ8iQAt13xg==
+
 prisma@^3.13.0:
   version "3.13.0"
   resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.13.0.tgz#b11edd5631222ff1bf1d5324732d47801386aa8c"
@@ -4660,7 +4675,7 @@ vue-router@^4.0.14:
   dependencies:
     "@vue/devtools-api" "^6.0.0"
 
-vue@^3.2.33:
+vue@^3.0.0, vue@^3.2.33:
   version "3.2.33"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.33.tgz#7867eb16a3293a28c4d190a837bc447878bd64c2"
   integrity sha512-si1ExAlDUrLSIg/V7D/GgA4twJwfsfgG+t9w10z38HhL/HA07132pUQ2KuwAo8qbCyMJ9e6OqrmWrOCr+jW7ZQ==
