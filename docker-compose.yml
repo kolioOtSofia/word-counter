@@ -1,0 +1,25 @@
+services:
+  app:
+    build:
+      dockerfile: ./docker/Dockerfile
+      context: .
+    ports:
+      - 8080:3000
+    depends_on:
+      - db
+    profiles:
+      - production
+
+  db:
+    image: postgres:13
+    volumes:
+      - db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASS}
+      - POSTGRES_DB=${DB_NAME}
+
+volumes:
+  db:
